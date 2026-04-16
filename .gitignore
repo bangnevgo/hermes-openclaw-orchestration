@@ -1,0 +1,21 @@
+# Temporary bridge files
+shared-memory/hermes/incoming/*.json
+shared-memory/hermes/outgoing/*.json
+
+# Logs
+*.log
+watcher.log
+service.log
+bridge.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.local
+
+# Misc
+halo.txt
